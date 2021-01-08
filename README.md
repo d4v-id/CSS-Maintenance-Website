@@ -1,5 +1,5 @@
 # CSS-Maintenance-Website
-List Maintenance Website Page / Break Page with CSS style for user-interface website (ALWAYS UPDATE)
+List Maintenance Website Page / Break Page with CSS style for user-interface website ( ALWAYS UPDATE.. )
 
 Features:
 - Simple HTML&CSS
