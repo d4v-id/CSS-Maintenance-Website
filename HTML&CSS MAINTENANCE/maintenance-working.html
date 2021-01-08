@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MAINTENANCE WORKING ON IT</title>
+		<link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+		<style type="text/css">
+		body{
+			background: url("GIF/particles.gif");
+		}
+		.complex{
+			position: center;
+			padding: 0;
+			height: 10%;
+			width: 100%;
+		}
+		.container{
+			margin: 0;
+			width: 100%;
+			height: 10%;
+			padding: 0;
+			font-family: 'Faster One', cursive;
+			font-size: 20px;
+			text-transform: uppercase;
+			background-size: 80%;
+			background-repeat: no-repeat;
+		}
+		.container h1{
+			margin: 12px;
+			padding: 0px;
+		}
+		.blink-one{
+			color: white;
+			text-shadow: white 1px 2px 4px;
+			animation: one 4s infinite
+		}
+
+		.blink-two{
+			color: black;
+			text-shadow: white 1px 2px 4px;
+			animation: two 3s infinite;
+			animation-delay: 1s;
+		}
+		.text h3{
+			font-family: 'Ubuntu Mono', monospace;
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: 0%;
+			margin-right: 0%;
+			text-align: center;
+			letter-spacing: 3px;
+			color: white;
+			background: linear-gradient(10deg, #e3fff9, white);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-repeat: no-repeat;
+			background-size: 23%;
+			background-position: center;
+			animation: text 4s ease-in-out infinite;
+		}
+		.dev{
+			width: 20%;
+			margin: 0;
+			padding: 0;
+			text-align: right;
+			font-family: 'Ubuntu Mono', monospace;
+			position: fixed;
+			left: 78%;
+			bottom: 0;
+			color: white;
+		}
+		.photo img{
+			margin-top: 60px;
+			margin-bottom: 0px;
+			border-radius: 10px;
+			border: 1px solid white;
+			box-shadow: white 2px 4px 35px;
+
+		}
+		@keyframes text{
+			from{
+				background-position-x: -15%;
+			}
+			to{
+				background-position-x: 80%;
+			}
+		}
+		@keyframes one{
+			0%{color: white; text-shadow: cyan 1px 2px 4px;}
+			25%{color: black; text-shadow: cyan 1px 2px 4px;}
+			50%{color: cyan; text-shadow: white 1px 2px 4px;}
+			75%{color: white; text-shadow: white 1px 2px 4px;}
+			100%{color: black; text-shadow: white 1px 2px 4px;}
+		}
+		@keyframes two{
+			0%{color: white; text-shadow: white 1px 2px 4px;}
+			25%{color: black; text-shadow: cyan 1px 2px 4px;}
+			50%{color: black; text-shadow: white 1px 2px 4px;}
+			75%{color: white; text-shadow: cyan 1px 2px 4px;}
+			100%{color: white: text-shadow: #33d4d4 1px 2px 4px;}
+		}
+		</style>
+	</head>
+	<body>
+		<center>
+		<div class="photo">
+			<img src="GIF/night-pc.gif">
+		</div>
+	  <div class="complex">
+		<div class="container">
+			<h1>
+				<span class="blink-one">W</span>
+				<span class="blink-two">e</span>
+				<span class="blink-one">'</span>
+				<span class="blink-two">r</span>
+				<span class="blink-one">e </span>
+				<span class="blink-two">&nbsp;&nbsp;&nbsp;&nbsp;w</span>
+				<span class="blink-one">o</span>
+				<span class="blink-two">r</span>
+				<span class="blink-one">k</span>
+				<span class="blink-two">i</span>
+				<span class="blink-one">n</span>
+				<span class="blink-two">g </span>
+				<span class="blink-one">&nbsp;&nbsp;&nbsp;&nbsp;on</span>
+				<span class="blink-two">&nbsp;&nbsp;&nbsp;&nbsp;it</span>
+			</h1>
+		</div>
+		<div class="text">
+			<h3>Please Come Back Later.....</h3>
+		</div>
+	  </div>
+		<!-- footer -->
+		<div class="dev">
+			<h5>Copyright &copy; Github<br>Developed by d4v.id</h5>
+		</div>
+	</body>
+</html>
