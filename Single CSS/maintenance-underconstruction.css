@@ -1,0 +1,73 @@
+		body{
+			background-color: white;
+		}
+		.complex{
+			position: center;
+			margin: 0px;
+			padding: 0px;
+
+		}
+		.photo img{
+			margin-top: 0;
+			padding: 0;
+			width: 35%;
+		}
+		.container{
+			width: 70%;
+			margin-top: 0px;
+			padding: 2px;
+			color: #f5680a;
+			font-family: 'Fascinate Inline', cursive;
+			letter-spacing: 2px;
+			background-size: 80%;
+			border-bottom: 2px none;
+			border-radius: 5px;
+			box-shadow: #f5680a 0px 3px 5px ;
+			animation: area 8s infinite;
+		}
+		.container h1{
+			margin: 0px;
+			padding: 0px;
+		}
+		.text h2{
+			font-family: 'Hi Melody', cursive;
+			margin-top: 15px;
+			margin-bottom: 0;
+			text-align: center;
+			letter-spacing: 3px;
+			color: black; 
+			animation: txtone 4s infinite;
+		}
+		.txt-two{
+			animation: txttwo 4s infinite;
+			animation-delay: 2s;
+		}
+		.dev{
+			width: 20%;
+			margin: 0;
+			padding: 0;
+			text-align: right;
+			font-family: 'Ubuntu Mono', monospace;
+			position: fixed;
+			left: 78%;
+			bottom: 0;
+			color: #f5680a;
+		}
+		@keyframes area{
+			0%{box-shadow: #f5680a 0px 3px 5px;}
+			25%{box-shadow: yellow 0px 3px 5px ;}
+			50%{box-shadow: none; border: none}
+			75%{box-shadow: grey 0px 3px 5px ;}
+		}
+		@keyframes txtone{
+			0%{color: black;}
+			25%{-ms-transform: skewY(4deg); transform: skewY(4deg);}
+			50%{color: black;}
+			75%{color: #f5680a;-ms-transform: skewY(-4deg); transform: skewY(-4deg);}
+		}
+		@keyframes txttwo{
+			0%{color: black;}
+			25%{-ms-transform: skewX(-7deg); transform: skewX(-7deg);}
+			50%{color: black;}
+			75%{color: #f5680a; -ms-transform: skewX(7deg); transform: skewX(7deg);}
+		}
